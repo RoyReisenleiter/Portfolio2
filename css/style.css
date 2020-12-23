@@ -30,8 +30,8 @@ p {
     overflow: auto;
     padding: 0 20px;
 }
-.text-primary {
-    color: #f7c08a;
+.text-primary { /*determines colour all all text throughout*/
+    color: #ffffff;
 }
 .lead {
     font-size: 20px;
@@ -40,7 +40,7 @@ p {
     display: inline-block;
     font-size: 20px;
     color: #fff;
-    background: #333;
+    background: #000000; /* was #333 dark grey*/
     padding: 13px 20px;
     border: none;
     cursor: pointer;
