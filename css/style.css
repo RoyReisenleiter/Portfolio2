@@ -44,6 +44,7 @@ p {
     background: #000000; /* was #333 dark grey*/
     padding: 13px 20px;
     border: none;
+    border-radius:50%; /*remove this to make it square again*/
     cursor: pointer;
 }
 .btn:hover {
@@ -186,7 +187,7 @@ p {
     display: block;
     margin: auto;
     width: 70%;
-    border-radius: 50%;
+    border-radius: 10%; /*change this to change shape of image*/
 }
 
 #about-info .info-left {
