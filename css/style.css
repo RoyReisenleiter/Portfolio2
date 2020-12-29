@@ -34,6 +34,10 @@ p {
     color: #ffffff;
     opacity: 1;
 }
+.text-secondary { /*determines colour all all text throughout*/
+    color: #333333;
+    opacity: 1;
+}
 .lead {
     font-size: 20px;
 }
