@@ -32,7 +32,7 @@ p {
 }
 .container2 {
     margin: auto;
-    max-height: 1000px;
+    height: 800px; /*set this to max-height if needed*/
     width: 1000px;
     overflow: auto;
     padding: 0 20px;
@@ -225,7 +225,7 @@ p {
 }
 #testimonials .testimonial{
     padding: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     height: auto;
     left: 0%;
     right: 100%;
@@ -241,8 +241,9 @@ p {
 }
 
 #testimonials .testimonial:hover img { /*this code causes image to zoom on hover*/
-    transform: scale(5.5);
-    transform-origin: center right 100px;
+    transform: scale(4.5);
+    transform-origin: -50px 125px;
+    /*transform-origin: bottom left 100px;*/
     position: absolute;
     border-radius: 5px;
 
