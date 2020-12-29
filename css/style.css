@@ -152,6 +152,8 @@ p {
     float: left;
     width: 50%;
     background: url("../img/photo-1.jpg") no-repeat;
+    background-size: 1000px 750px;
+    background-position: 50% 60%;
     min-height: 100%;
 }
 #home_info .info-content {
@@ -180,19 +182,20 @@ p {
 /* About Info*/
 #about-info .info-right{
     float: right;
-    width: 50%;
+    width: 60%; /*change size of about description*/
     min-height: 100%;
 }
 #about-info .info-right img {
     display: block;
     margin: auto;
-    width: 70%;
+    width: 80%; /*change size of about right image*/
+    block-size: 17em;
     border-radius: 10%; /*change this to change shape of image*/
 }
 
 #about-info .info-left {
     float: left;
-    width: 50%;
+    width: 40%;
     min-height: 100%;
 }
 
