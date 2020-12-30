@@ -234,7 +234,7 @@ p {
 }
 #testimonials .testimonial img{
     width: 100px;
-    transition: transform .5s ease;
+    transition: transform 1s ease;
     float: left;
     margin-right: 20px;
     border-radius: 0%; /*change this to 50% for full circle*/
@@ -246,7 +246,13 @@ p {
     /*transform-origin: bottom left 100px;*/
     position: absolute;
     border-radius: 5px;
+}
 
+#testimonials .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* Contact Form*/
