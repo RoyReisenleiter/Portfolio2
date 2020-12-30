@@ -148,6 +148,7 @@ p {
     font-size: 60px;
     line-height: 1.2em;
     padding-top: 0px; /*add padding here to adjust name location*/
+    padding-bottom: 0px;
     opacity: 1;
 }
 #showcase .showcase-content p {
