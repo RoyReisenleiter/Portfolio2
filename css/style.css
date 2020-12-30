@@ -242,8 +242,8 @@ p {
 }
 
 #testimonials .testimonial:hover img { /*this code causes image to zoom on hover*/
-    transform: scale(4.5);
-    transform-origin: -50px 125px;
+    transform: scale(5.5);
+    transform-origin: -50px 115px;
     /*transform-origin: bottom left 100px;*/
     position: absolute;
     border-radius: 5px;
