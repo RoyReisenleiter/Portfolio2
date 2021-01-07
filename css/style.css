@@ -136,13 +136,13 @@ p {
 #showcase {
     background: url('../img/showcase.jpg') no-repeat
     center center/cover;
-    height: 600px;
+    height: 400px; /*adjust size of front page banner*/
     opacity: 1;
 }
 #showcase .showcase-content {
     color: #fff;
     text-align: center;
-    padding-top: 170px;
+    padding-top: 100px;
 }
 #showcase .showcase-content h1{
     font-size: 60px;
@@ -210,20 +210,24 @@ p {
 /* About Info*/
 #about-info .info-right{
     float: right;
-    width: 60%; /*change size of about description*/
+    height: 400px; /*size of the container the image is in*/
+    width: 50%; /*change size of about image*/
     min-height: 100%;
 }
 #about-info .info-right img {
     display: block;
     margin: auto;
-    width: 80%; /*change size of about right image*/
+    position: relative; /*keeps image in the container and allows for positioning*/
+    top: 55px; /*moves image down to match about text on the left*/
+    right: -0px;
+    width: 100%; /*change size of about right image*/
     block-size: 17em;
     border-radius: 10%; /*change this to change shape of image*/
 }
 
 #about-info .info-left {
     float: left;
-    width: 40%;
+    width: 50%; /*about - changes space taken up by aboutMe blurb*/
     min-height: 100%;
 }
 
