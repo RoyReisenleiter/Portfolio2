@@ -172,8 +172,16 @@ p {
     float: left;
     width: 50%;
     background: url("../img/websiteSample.PNG") no-repeat;
-    background-size: 800px 400px;
-    background-position: 50% 60%;
+    background-size: 640px 320px;
+    background-position: 50% 30%;
+    min-height: 100%;
+}
+#home_info .project2-img { /*copy this for each different project*/
+    float: left;
+    width: 50%;
+    background: url("../img/websiteSample.PNG") no-repeat;
+    background-size: 640px 320px;
+    background-position: 50% 30%;
     min-height: 100%;
 }
 #home_info .info-content {
@@ -250,8 +258,8 @@ p {
 }
 
 #testimonials .testimonial:hover img { /*this code causes image to zoom on hover*/
-    transform: scale(5.5);
-    transform-origin: -50px 115px;
+    transform: scale(5.0);
+    transform-origin: -0px 115px; /*X-axis , Y-axis*/
     /*transform-origin: bottom left 100px;*/
     position: absolute;
     border-radius: 5px;
