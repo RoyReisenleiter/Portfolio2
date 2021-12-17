@@ -45,7 +45,8 @@ p {
     color: #ffffff;
     position: absolute;
     bottom: 60%;
-    left: 45%
+    left: 45%;
+    font-size:20%;
     
 }
 .text-secondary { /*determines colour all all text throughout*/
