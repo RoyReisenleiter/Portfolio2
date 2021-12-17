@@ -43,7 +43,7 @@ p {
 }
 .text-checkin { 
     color: #ffffff;
-    position: absolute;
+    position: relative;
     left: 50%;
     font-size:5px;
     
