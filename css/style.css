@@ -44,7 +44,7 @@ p {
 .text-checkin { 
     color: #ffffff;
     position: relative;
-    top: 5px;
+    bottom: 50px;
     left: 45%;
     font-size:5px;
     
