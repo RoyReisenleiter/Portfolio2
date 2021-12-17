@@ -41,6 +41,13 @@ p {
     color: #ffffff;
     opacity: 1;
 }
+.text-checkin { 
+    color: #ffffff;
+    position: absolute;
+    bottom: 45%;
+    left: 50%
+    
+}
 .text-secondary { /*determines colour all all text throughout*/
     color: #333333;
     opacity: 1;
@@ -192,6 +199,7 @@ p {
     padding: 50px 30px;
     overflow: hidden;
 }
+
 #home_info .info-content p {
     padding-bottom: 30px;
 }
